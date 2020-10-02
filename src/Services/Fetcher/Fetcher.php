@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace App\Services\Fetcher;
 
-use App\Client\Interfaces\RandomUserClientInterface;
+use App\Services\Client\Interfaces\RandomUserClientInterface;
 use App\Services\Fetcher\Interfaces\FetcherConfigurationProviderInterface;
 use App\Services\Fetcher\Interfaces\FetcherInterface;
 use App\Services\Fetcher\Interfaces\UserDataMapperInterface;

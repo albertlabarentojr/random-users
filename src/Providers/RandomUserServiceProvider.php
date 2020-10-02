@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace App\Providers;
 
-use App\Client\Interfaces\RandomUserClientInterface;
-use App\Client\RandomUserClient;
+use App\Services\Client\Interfaces\RandomUserClientInterface;
+use App\Services\Client\RandomUserClient;
 use App\Services\Fetcher\Fetcher;
 use App\Services\Fetcher\Interfaces\FetcherConfigurationProviderInterface;
 use App\Services\Fetcher\Interfaces\FetcherInterface;

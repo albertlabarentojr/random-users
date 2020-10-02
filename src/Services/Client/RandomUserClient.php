@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Client;
+namespace App\Services\Client;
 
-use App\Client\Interfaces\RandomUserClientInterface;
+use App\Services\Client\Interfaces\RandomUserClientInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use Symfony\Contracts\HttpClient\ResponseInterface;
 
