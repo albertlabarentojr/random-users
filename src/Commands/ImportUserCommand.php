@@ -15,7 +15,7 @@ final class ImportUserCommand extends Command
 
     public function __construct(ImporterInterface $importer)
     {
-        parent::__construct('import:random_user');
+        parent::__construct('import:random_users');
 
         $this->importer = $importer;
     }
